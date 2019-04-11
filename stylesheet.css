@@ -347,6 +347,26 @@ header {
   background-color: #dcdcdc;
 }
 
+.video{
+  height:950px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  color: #5e6f84;
+  padding: 60px 0;
+}
+.video p{
+  border-bottom:1px solid black;
+  font-size:15px;
+  padding-bottom:15px;
+  margin:40px 25% 0px 25%;
+  color:black;
+}
+.video video{
+  width:1000px;
+  height: auto;
+}
+
 .environment-wrapper{
   height: 600px;
   background-image:url(back.jpg);
