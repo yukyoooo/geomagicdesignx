@@ -58,10 +58,10 @@ $('.faq-list-item').click(function() {
 
 
    $('header a').click(function(){
-     var id = $(this).attr('href');              //クリックしたボタンの飛び先取得
-     var position =$(id).offset().top; //飛び先の最上部からの距離取得
-     $('html, body').animate({'scrollTop': position}, 500);
-   });
+   var id = $(this).attr('href');              //クリックしたボタンの飛び先取得
+   var position =$(id).offset().top; //飛び先の最上部からの距離取得
+   $('html, body').animate({'scrollTop': position}, 500);
+ });
 
 
 
