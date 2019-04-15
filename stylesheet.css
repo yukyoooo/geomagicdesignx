@@ -20,11 +20,26 @@ header {
 }
 .header-left {
   float: left;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
 }
+
 .header-left p {
   color:white;
   margin:20px 0px;
 }
+
+.header-left:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display:block;
+  text-decoration: none;
+}
+
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
@@ -37,9 +52,10 @@ header {
   line-height: 65px;
   padding: 0 25px;
   color: white;
-  display: block;
+  display:block;
   text-decoration: none;
 }
+
 
 .top-wrapper{
   width:100%;
